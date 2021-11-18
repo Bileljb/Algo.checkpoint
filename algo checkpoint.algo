@@ -1,0 +1,22 @@
+ALGORITHM checkpoint
+VAR
+    i : CHAR
+     a, b, c, : INTEGER
+BEGIN
+    read(jomletna)
+    WHILE (i <> ".") DO
+        a:= a+1
+        IF ( i in ["a", "e","i","o","u"]  ) THEN
+            b:= b+1
+        END_IF
+        IF ( i =' ' ) THEN
+            c:= c+1
+        END_IF
+    END_WHILE
+        
+    END_WHILE
+    write(a)
+    write(b)
+    write(c)
+END
+
